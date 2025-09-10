@@ -1,0 +1,9 @@
+{
+  "name": "voice-auth-contract",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^17.2.1",
+    "hardhat": "^2.12.0"
+  }
+}

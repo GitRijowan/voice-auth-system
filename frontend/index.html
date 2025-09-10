@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Authentication System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Authentication System</h1>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="register">Register</button>
+            <button class="tab-btn" data-tab="authenticate">Authenticate</button>
+        </div>
+
+        <div class="tab-content active" id="register">
+            <h2>Register Your Voice</h2>
+            <div class="form-group">
+                <label for="wallet-address">Wallet Address:</label>
+                <input type="text" id="wallet-address" placeholder="0x...">
+                <div class="button-group">
+                    <button id="check-balance" type="button">Check Balance</button>
+                    <button id="check-reg" type="button">Check Registration</button>
+                </div>
+            </div>
+            <button id="start-reg">Start Recording</button>
+            <button id="stop-reg" disabled>Stop Recording</button>
+            <div id="reg-status"></div>
+        </div>
+
+        <div class="tab-content" id="authenticate">
+            <h2>Voice Authentication</h2>
+            <div class="form-group">
+                <label for="auth-address">Wallet Address:</label>
+                <input type="text" id="auth-address" placeholder="0x...">
+            </div>
+            <button id="start-auth">Start Recording</button>
+            <button id="stop-auth" disabled>Stop Recording</button>
+            <div id="auth-status"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
