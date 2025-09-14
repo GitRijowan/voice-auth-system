@@ -9,8 +9,9 @@ A blockchain-based voice authentication system combining voice biometrics with i
 
 ## Tech Stack
 - **Blockchain**: Solidity, Hardhat, Ethers.js, Polygon Amoy
-- **Backend**: Node.js, Express, FFmpeg
-- **Frontend**: HTML, CSS, JavaScript, Web Audio API
+- **Backend**: Node.js, Express, FFmpeg and Ethers
+-             Ethers:Ethers.js is a lightweight, fully TypeScript Ethereum library with secure key management, wallet/mnemonic support, ABI-based contract interaction, and multi-provider connectivity (JSON-RPC, Infura, Alchemy, MetaMask, etc.). Designed for safety, simplicity, and efficiency, it’s tree-shakable, well-documented, and open-source under MIT.
+- **Frontend**: HTML, CSS, JavaScript
 
 ## Setup
 ```bash
